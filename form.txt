@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Job Registration Form</title>
+<style>
+th{
+color:#104579;
+background-color:#FADD4022;
+}
+td{
+background-color:#FADD4022;
+}
+</style>
+</head>
+<body>
+<form>
+<table border="2">
+<tr>
+<th colspan="7">
+Job Registration Form
+ </th>
+ </tr>
+ <tr>
+<td>Name : </td>
+ <td>
+<input type="text"></input>
+ </td>
+</tr>
+<tr>
+<td>Email : </td>
+ <td>
+<input type="email" id="email" name="email/">
+ </td>
+</tr>
+<tr>
+<td>Phone Number : </td>
+ <td>
+<input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+ </td>
+</tr>
+<tr>
+<td>Gender :</td>
+<td>
+<input type="radio" name="Gender" value="Male" />
+Male
+<input type="radio" name="Gender" value="Female" />
+Female
+</td>
+</tr>
+<tr>
+<td>Date Of Birth : </td>
+ <td>
+<input type="date" id="birthday" name="birthday">
+ </td>
+</tr>
+<tr>
+<td>Job Field : </td>
+ <td>
+<input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+ </td>
+</tr>
+<tr>
+<td>Experience :</td>
+ <td>
+<input type="text"></input>
+ </td>
+</tr>
+<tr>
+<td> Qualification : </td>
+ <td>
+<input type="text"></input>
+ </td>
+</tr>
+<tr>
+<td>Address : </td>
+<td>
+<textarea rows="5" cols="22"></textarea>
+</td>
+</tr>
+ <tr>
+<td>Expected Salary : </td>
+ <td>
+<input type="text"></input>
+ </td>
+</tr>
+ <tr>
+<td>Passed Out Company Name: </td>
+ <td>
+<input type="text"></input>
+ </td>
+</tr>
+<tr>
+<td>10th Mark : </td>
+ <td>
+<input type="text" id="name" name="name" required
+       minlength="0" maxlength="4" size="10">
+ </td>
+</tr>
+<tr>
+<td>12th Mark : </td>
+ <td>
+<input type="text" id="name" name="name" required
+       minlength="0" maxlength="4" size="10">
+ </td>
+</tr>
+  <tr>
+<td>CGPA : </td>
+ <td>
+<input type="text" id="name" name="name" required
+       minlength="0" maxlength="4" size="10">
+ </td>
+</tr>
+<tr>
+<td>
+<input type="submit">
+</td>
+</tr>
+</body>
+</html>

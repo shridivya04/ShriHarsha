@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>poster</title>
+</head>
+<body>
+<h1>ZOZOR</h1>
+<h2>Travel diaries </h2>
+<ul type="disc" style="color:blue">
+<u><li>Home</li></u>
+<u><li>Blog</li></u>
+<u><li>Resume</li></u>
+</ul>
+<h2>About the author</h2>
+<p>It's me,Zozor! I was born on November 23,2005.</p>
+<h2>I'm a great traveller</h2>
+<p>Bla bla bla bla(article text)</p>
+<p>Zozor Copyright-All rights reserved</p>
+<ul type="disc" style="color:blue">
+<p><a href=#>Contact me!</a>
+</p>
+</body>
+</html>
